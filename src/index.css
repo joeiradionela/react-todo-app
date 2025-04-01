@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: pink;
+  background-color: var(--card-bg);
   color: var(--text-color);
   transition: background 0.3s, color 0.3s;
 }
@@ -71,10 +71,12 @@ button {
   --bg-color: #f8f9fa;
   --text-color: #000;
   --card-bg: white;
+ 
 }
 
 .dark-mode {
   --bg-color: #333;
   --text-color: #fff;
-  --card-bg: #444;
+  --card-bg: #000;
+ 
 }
